@@ -4,6 +4,10 @@ import org.gad.util.read
 
 fun main(args: Array<String>) {
     val lines = read(true, "02")
+    part1(lines)
+}
+
+private fun part1(lines: List<String>) {
     var twos = 0
     var threes = 0
     lines.forEach { it ->
